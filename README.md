@@ -139,7 +139,7 @@ $ipaddr = (Invoke-WebRequest -Uri 'https://api.ipify.org').Content
 
 ```bash
 # Deployment Command (Run in Azure CLI)
-$RgName='fabric-databricks-security'   dfdfd
+$RgName='fabric-databricks-security'
 $storage_account_name='storageaccountdbxfabric'
 $container_name='samplecontainer'
 $ipaddr='<your IP>'
