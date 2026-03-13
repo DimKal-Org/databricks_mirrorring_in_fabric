@@ -28,6 +28,9 @@ This architecture is critical for scenarios where:
 - Compliance frameworks require network isolation (e.g., financial services, healthcare)
 - Fabric mirroring needs to access Databricks workspaces through private connectivity
 
+### Conceptual Diagram
+![image](files/conceptual-diagram.png)
+
 ---
 ## 🛠️ Step 1: Infrastructure Setup
 ### 📦 (Infra) Bicep File #1: Databricks Workspace with VNet Injection
